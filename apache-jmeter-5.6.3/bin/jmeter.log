@@ -1,0 +1,87 @@
+2026-03-25 09:27:27,985 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-03-25 09:27:27,998 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-03-25 09:27:27,998 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: Version 5.6.3
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: java.version=1.8.0_481
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: os.name=Windows 11
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: os.arch=x86
+2026-03-25 09:27:28,004 INFO o.a.j.JMeter: os.version=10.0
+2026-03-25 09:27:28,005 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-03-25 09:27:28,005 INFO o.a.j.JMeter: java.awt.headless=null
+2026-03-25 09:27:28,005 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-03-25 09:27:28,005 INFO o.a.j.JMeter: Available Processors =8
+2026-03-25 09:27:28,008 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-03-25 09:27:28,008 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-03-25 09:27:28,008 INFO o.a.j.JMeter: JMeterHome=D:\Testes de performance Jmeter\apache-jmeter-5.6.3
+2026-03-25 09:27:28,008 INFO o.a.j.JMeter: user.dir  =D:\Testes de performance Jmeter\apache-jmeter-5.6.3\bin
+2026-03-25 09:27:28,008 INFO o.a.j.JMeter: PWD       =D:\Testes de performance Jmeter\apache-jmeter-5.6.3\bin
+2026-03-25 09:27:28,022 INFO o.a.j.JMeter: IP: 192.168.1.9 Name: Natanael FullName: Natanael
+2026-03-25 09:27:28,039 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-03-25 09:27:28,246 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-03-25 09:28:08,290 INFO o.a.j.s.FileServer: Default base='D:\Testes de performance Jmeter\apache-jmeter-5.6.3\bin'
+2026-03-25 09:28:08,292 INFO o.a.j.g.a.Load: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\teste_tugboat_final.jmx
+2026-03-25 09:28:08,292 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:28:08,505 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-03-25 09:28:08,529 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-03-25 09:28:08,529 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-03-25 09:28:08,533 INFO o.a.j.s.SaveService: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\teste_tugboat_final.jmx
+2026-03-25 09:28:08,565 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-25 09:28:08,565 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-25 09:28:08,565 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-25 09:28:08,565 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-03-25 09:28:08,565 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-03-25 09:28:08,565 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-03-25 09:28:08,792 WARN o.a.j.g.a.Load: Unexpected error. java.util.NoSuchElementException: Property HTTPsampler.Arguments is unset for element org.apache.jmeter.config.ConfigTestElement@f6ac7fdf
+java.util.NoSuchElementException: Property HTTPsampler.Arguments is unset for element org.apache.jmeter.config.ConfigTestElement@f6ac7fdf
+	at org.apache.jmeter.testelement.TestElement.get(TestElement.kt:452) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.config.gui.UrlConfigGui.configure(UrlConfigGui.java:285) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.config.gui.HttpDefaultsGui.configure(HttpDefaultsGui.java:166) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:162) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:131) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:131) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:123) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:555) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:201) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:132) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:103) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:90) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6.3]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_481]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_481]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_481]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_481]
+2026-03-25 09:28:08,796 ERROR o.a.j.u.JMeterUtils: Property HTTPsampler.Arguments is unset for element org.apache.jmeter.config.ConfigTestElement@f6ac7fdf
+2026-03-25 09:28:57,055 INFO o.a.j.g.a.Load: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\projeto_final_sem_erro.jmx
+2026-03-25 09:28:57,056 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:28:57,056 INFO o.a.j.s.SaveService: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\projeto_final_sem_erro.jmx
+2026-03-25 09:28:57,168 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-03-25 09:28:57,169 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-03-25 09:28:57,169 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-03-25 09:28:57,169 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-03-25 09:28:57,433 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:29:17,466 INFO o.a.j.g.a.Load: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\projeto_final5.jmx
+2026-03-25 09:29:17,468 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:29:17,468 INFO o.a.j.s.SaveService: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\projeto_final5.jmx
+2026-03-25 09:29:17,588 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:29:41,553 INFO o.a.j.g.a.Load: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\exemple completed.jmx
+2026-03-25 09:29:41,553 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:29:41,553 INFO o.a.j.s.SaveService: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\exemple completed.jmx
+2026-03-25 09:29:41,584 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:31:20,800 INFO o.a.j.g.a.Load: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\pronto.jmx
+2026-03-25 09:31:20,800 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'
+2026-03-25 09:31:20,800 INFO o.a.j.s.SaveService: Loading file: D:\Testes de performance Jmeter\Secao6-Ambiente completo\pronto.jmx
+2026-03-25 09:31:20,886 INFO o.a.j.s.FileServer: Set new base='D:\Testes de performance Jmeter\Secao6-Ambiente completo'

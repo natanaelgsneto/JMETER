@@ -1,0 +1,337 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1774309804847,3024,01-Home,200,OK,Grupo de Usuários 1-1,text,true,,142837,1158,6,7,https://jmeter.apache.org/,1710,0,1449
+1774309805773,2098,01-Home,200,OK,Grupo de Usuários 1-3,text,true,,142838,1158,6,7,https://jmeter.apache.org/,784,0,523
+1774309804847,1714,01-Home-0,200,OK,Grupo de Usuários 1-1,text,true,,22332,122,6,7,https://jmeter.apache.org/,1710,0,1449
+1774309805773,829,01-Home-0,200,OK,Grupo de Usuários 1-3,text,true,,22332,122,6,7,https://jmeter.apache.org/,784,0,523
+1774309806623,365,01-Home-1,200,OK,Grupo de Usuários 1-1,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,365,0,250
+1774309806623,823,01-Home-1,200,OK,Grupo de Usuários 1-3,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,823,0,699
+1774309806623,1248,01-Home-2,200,OK,Grupo de Usuários 1-1,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,1243,0,1191
+1774309806623,1154,01-Home-3,200,OK,Grupo de Usuários 1-1,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,1153,0,1110
+1774309806623,1248,01-Home-2,200,OK,Grupo de Usuários 1-3,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,1242,0,1187
+1774309806623,159,01-Home-4,200,OK,Grupo de Usuários 1-1,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,159,0,113
+1774309806624,313,01-Home-3,200,OK,Grupo de Usuários 1-3,text,true,,11896,139,6,7,https://jmeter.apache.org/css/new-style.css,310,0,112
+1774309806623,689,01-Home-5,200,OK,Grupo de Usuários 1-1,text,true,,28868,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,675,0,111
+1774309806623,270,01-Home-6,200,OK,Grupo de Usuários 1-1,text,true,,36557,137,6,7,https://jmeter.apache.org/images/logo.svg,254,0,0
+1774309806623,158,01-Home-4,200,OK,Grupo de Usuários 1-3,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,158,0,110
+1774309806784,211,01-Home-7,200,OK,Grupo de Usuários 1-1,bin,true,,6325,150,6,7,https://www.apache.org/events/current-event-234x60.png,210,0,166
+1774309806624,691,01-Home-5,200,OK,Grupo de Usuários 1-3,text,true,,28868,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,677,0,128
+1774309806623,303,01-Home-6,200,OK,Grupo de Usuários 1-3,text,true,,36556,137,6,7,https://jmeter.apache.org/images/logo.svg,257,0,0
+1774309806784,205,01-Home-7,200,OK,Grupo de Usuários 1-3,bin,true,,6325,150,6,7,https://www.apache.org/events/current-event-234x60.png,204,0,162
+1774309805269,2724,01-Home,200,OK,Grupo de Usuários 1-2,text,true,,142837,1158,6,7,https://jmeter.apache.org/,1288,0,1027
+1774309805269,1403,01-Home-0,200,OK,Grupo de Usuários 1-2,text,true,,22332,122,6,7,https://jmeter.apache.org/,1288,0,1027
+1774309806679,1314,01-Home-1,200,OK,Grupo de Usuários 1-2,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,1314,0,1201
+1774309806679,238,01-Home-2,200,OK,Grupo de Usuários 1-2,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,185,0,126
+1774309806679,277,01-Home-3,200,OK,Grupo de Usuários 1-2,text,true,,11896,139,6,7,https://jmeter.apache.org/css/new-style.css,256,0,0
+1774309806680,160,01-Home-4,200,OK,Grupo de Usuários 1-2,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,159,0,112
+1774309806679,632,01-Home-5,200,OK,Grupo de Usuários 1-2,text,true,,28868,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,619,0,103
+1774309806679,219,01-Home-6,200,OK,Grupo de Usuários 1-2,text,true,,36555,137,6,7,https://jmeter.apache.org/images/logo.svg,202,0,111
+1774309806842,147,01-Home-7,200,OK,Grupo de Usuários 1-2,bin,true,,6325,150,6,7,https://www.apache.org/events/current-event-234x60.png,146,0,105
+1774309806778,1323,01-Home,200,OK,Grupo de Usuários 1-5,text,true,,142833,1158,6,7,https://jmeter.apache.org/,140,0,98
+1774309806778,148,01-Home-0,200,OK,Grupo de Usuários 1-5,text,true,,22330,122,6,7,https://jmeter.apache.org/,140,0,98
+1774309806929,299,01-Home-1,200,OK,Grupo de Usuários 1-5,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,298,0,185
+1774309806929,183,01-Home-2,200,OK,Grupo de Usuários 1-5,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,176,0,124
+1774309806929,55,01-Home-3,200,OK,Grupo de Usuários 1-5,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,53,0,0
+1774309806929,150,01-Home-4,200,OK,Grupo de Usuários 1-5,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,150,0,108
+1774309806929,382,01-Home-5,200,OK,Grupo de Usuários 1-5,text,true,,28868,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,372,0,106
+1774309806930,1171,01-Home-6,200,OK,Grupo de Usuários 1-5,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,1156,0,1113
+1774309807078,139,01-Home-7,200,OK,Grupo de Usuários 1-5,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,139,0,96
+1774309807281,1330,01-Home,200,OK,Grupo de Usuários 1-6,text,true,,142831,1158,6,7,https://jmeter.apache.org/,150,0,105
+1774309807281,162,01-Home-0,200,OK,Grupo de Usuários 1-6,text,true,,22330,122,6,7,https://jmeter.apache.org/,150,0,105
+1774309807448,308,01-Home-1,200,OK,Grupo de Usuários 1-6,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,308,0,185
+1774309807448,180,01-Home-2,200,OK,Grupo de Usuários 1-6,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,175,0,123
+1774309807448,1163,01-Home-3,200,OK,Grupo de Usuários 1-6,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,1162,0,1117
+1774309807448,51,01-Home-4,200,OK,Grupo de Usuários 1-6,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,48,0,0
+1774309807448,164,01-Home-5,200,OK,Grupo de Usuários 1-6,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,154,0,109
+1774309807448,171,01-Home-6,200,OK,Grupo de Usuários 1-6,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,155,0,110
+1774309807500,148,01-Home-7,200,OK,Grupo de Usuários 1-6,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,148,0,104
+1774309808104,1145,02- User Manual,200,OK,Grupo de Usuários 1-5,text,true,,47110,133,6,7,https://jmeter.apache.org/usermanual/,1123,0,0
+1774309807876,1376,02- User Manual,200,OK,Grupo de Usuários 1-3,text,true,,47110,133,6,7,https://jmeter.apache.org/usermanual/,1365,0,0
+1774309807996,1257,02- User Manual,200,OK,Grupo de Usuários 1-2,text,true,,47110,133,6,7,https://jmeter.apache.org/usermanual/,1247,0,0
+1774309807876,1392,02- User Manual,200,OK,Grupo de Usuários 1-1,text,true,,47110,133,6,7,https://jmeter.apache.org/usermanual/,1352,0,0
+1774309808612,659,02- User Manual,200,OK,Grupo de Usuários 1-6,text,true,,47110,133,6,7,https://jmeter.apache.org/usermanual/,616,0,0
+1774309806268,3526,01-Home,200,OK,Grupo de Usuários 1-4,text,true,,142839,1158,6,7,https://jmeter.apache.org/,289,0,117
+1774309806268,292,01-Home-0,200,OK,Grupo de Usuários 1-4,text,true,,22332,122,6,7,https://jmeter.apache.org/,289,0,117
+1774309806622,1378,01-Home-1,200,OK,Grupo de Usuários 1-4,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,1378,0,1262
+1774309806622,336,01-Home-2,200,OK,Grupo de Usuários 1-4,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,241,0,182
+1774309806623,312,01-Home-3,200,OK,Grupo de Usuários 1-4,text,true,,11896,139,6,7,https://jmeter.apache.org/css/new-style.css,311,0,112
+1774309806623,3171,01-Home-4,200,OK,Grupo de Usuários 1-4,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,3168,0,3124
+1774309806623,690,01-Home-5,200,OK,Grupo de Usuários 1-4,text,true,,28868,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,677,0,0
+1774309806623,270,01-Home-6,200,OK,Grupo de Usuários 1-4,text,true,,36556,137,6,7,https://jmeter.apache.org/images/logo.svg,256,0,111
+1774309806895,148,01-Home-7,200,OK,Grupo de Usuários 1-4,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,147,0,99
+1774309809799,135,02- User Manual,200,OK,Grupo de Usuários 1-4,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,93,0,0
+1774309812292,1326,01-Home,200,OK,Grupo de Usuários 1-2,text,true,,142831,1158,6,7,https://jmeter.apache.org/,145,0,100
+1774309812292,153,01-Home-0,200,OK,Grupo de Usuários 1-2,text,true,,22330,122,6,7,https://jmeter.apache.org/,145,0,100
+1774309812449,315,01-Home-1,200,OK,Grupo de Usuários 1-2,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,315,0,194
+1774309812449,176,01-Home-2,200,OK,Grupo de Usuários 1-2,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,170,0,117
+1774309812449,148,01-Home-3,200,OK,Grupo de Usuários 1-2,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,147,0,104
+1774309812452,144,01-Home-4,200,OK,Grupo de Usuários 1-2,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,144,0,99
+1774309812449,62,01-Home-5,200,OK,Grupo de Usuários 1-2,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,49,0,0
+1774309812452,1166,01-Home-6,200,OK,Grupo de Usuários 1-2,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,1153,0,1108
+1774309812512,134,01-Home-7,200,OK,Grupo de Usuários 1-2,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,134,0,91
+1774309812292,1329,01-Home,200,OK,Grupo de Usuários 1-1,text,true,,142831,1158,6,7,https://jmeter.apache.org/,144,0,98
+1774309812292,154,01-Home-0,200,OK,Grupo de Usuários 1-1,text,true,,22330,122,6,7,https://jmeter.apache.org/,144,0,98
+1774309812449,305,01-Home-1,200,OK,Grupo de Usuários 1-1,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,305,0,186
+1774309812449,178,01-Home-2,200,OK,Grupo de Usuários 1-1,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,170,0,117
+1774309812449,52,01-Home-3,200,OK,Grupo de Usuários 1-1,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,47,0,0
+1774309812449,150,01-Home-4,200,OK,Grupo de Usuários 1-1,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,149,0,107
+1774309812452,152,01-Home-5,200,OK,Grupo de Usuários 1-1,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,141,0,98
+1774309812451,1170,01-Home-6,200,OK,Grupo de Usuários 1-1,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,1155,0,1112
+1774309812503,137,01-Home-7,200,OK,Grupo de Usuários 1-1,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,136,0,94
+1774309813622,101,02- User Manual,200,OK,Grupo de Usuários 1-1,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,94,0,0
+1774309813619,134,02- User Manual,200,OK,Grupo de Usuários 1-2,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,99,0,0
+1774309812943,1319,01-Home,200,OK,Grupo de Usuários 1-4,text,true,,142831,1158,6,7,https://jmeter.apache.org/,153,0,109
+1774309812943,162,01-Home-0,200,OK,Grupo de Usuários 1-4,text,true,,22330,122,6,7,https://jmeter.apache.org/,153,0,109
+1774309813109,293,01-Home-1,200,OK,Grupo de Usuários 1-4,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,293,0,180
+1774309813110,181,01-Home-2,200,OK,Grupo de Usuários 1-4,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,173,0,117
+1774309813110,1152,01-Home-3,200,OK,Grupo de Usuários 1-4,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,1151,0,1106
+1774309813110,1152,01-Home-4,200,OK,Grupo de Usuários 1-4,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,1151,0,1108
+1774309813110,159,01-Home-5,200,OK,Grupo de Usuários 1-4,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,148,0,104
+1774309813109,60,01-Home-6,200,OK,Grupo de Usuários 1-4,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,49,0,0
+1774309813170,143,01-Home-7,200,OK,Grupo de Usuários 1-4,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,143,0,98
+1774309814263,136,02- User Manual,200,OK,Grupo de Usuários 1-4,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,91,0,0
+1774309812292,2355,01-Home,200,OK,Grupo de Usuários 1-3,text,true,,142831,1158,6,7,https://jmeter.apache.org/,1168,0,1123
+1774309812292,1177,01-Home-0,200,OK,Grupo de Usuários 1-3,text,true,,22330,122,6,7,https://jmeter.apache.org/,1168,0,1123
+1774309813473,303,01-Home-1,200,OK,Grupo de Usuários 1-3,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,303,0,188
+1774309813473,165,01-Home-2,200,OK,Grupo de Usuários 1-3,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,160,0,108
+1774309813473,149,01-Home-3,200,OK,Grupo de Usuários 1-3,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,148,0,103
+1774309813473,45,01-Home-4,200,OK,Grupo de Usuários 1-3,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,45,0,0
+1774309813473,1174,01-Home-5,200,OK,Grupo de Usuários 1-3,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,1162,0,1115
+1774309813473,159,01-Home-6,200,OK,Grupo de Usuários 1-3,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,145,0,102
+1774309813519,141,01-Home-7,200,OK,Grupo de Usuários 1-3,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,139,0,97
+1774309814649,114,02- User Manual,200,OK,Grupo de Usuários 1-3,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,104,0,0
+1774309812292,4329,01-Home,200,OK,Grupo de Usuários 1-5,text,true,,142831,1158,6,7,https://jmeter.apache.org/,3168,0,3125
+1774309812292,3175,01-Home-0,200,OK,Grupo de Usuários 1-5,text,true,,22330,122,6,7,https://jmeter.apache.org/,3168,0,3125
+1774309815470,303,01-Home-1,200,OK,Grupo de Usuários 1-5,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,303,0,184
+1774309815470,187,01-Home-2,200,OK,Grupo de Usuários 1-5,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,182,0,122
+1774309815470,153,01-Home-3,200,OK,Grupo de Usuários 1-5,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,151,0,106
+1774309815470,1151,01-Home-4,200,OK,Grupo de Usuários 1-5,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,1150,0,1108
+1774309815470,56,01-Home-5,200,OK,Grupo de Usuários 1-5,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,45,0,0
+1774309815470,167,01-Home-6,200,OK,Grupo de Usuários 1-5,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,151,0,107
+1774309815527,134,01-Home-7,200,OK,Grupo de Usuários 1-5,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,134,0,91
+1774309816622,128,02- User Manual,200,OK,Grupo de Usuários 1-5,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,84,0,0
+1774309816731,430,01-Home,200,OK,Grupo de Usuários 1-1,text,true,,142831,1158,6,7,https://jmeter.apache.org/,139,0,96
+1774309816731,146,01-Home-0,200,OK,Grupo de Usuários 1-1,text,true,,22330,122,6,7,https://jmeter.apache.org/,139,0,96
+1774309816879,282,01-Home-1,200,OK,Grupo de Usuários 1-1,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,282,0,170
+1774309816879,172,01-Home-2,200,OK,Grupo de Usuários 1-1,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,167,0,115
+1774309816879,138,01-Home-3,200,OK,Grupo de Usuários 1-1,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,136,0,92
+1774309816879,140,01-Home-4,200,OK,Grupo de Usuários 1-1,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,140,0,93
+1774309816879,55,01-Home-5,200,OK,Grupo de Usuários 1-1,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,44,0,0
+1774309816879,147,01-Home-6,200,OK,Grupo de Usuários 1-1,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,138,0,94
+1774309816935,139,01-Home-7,200,OK,Grupo de Usuários 1-1,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,139,0,97
+1774309817163,129,02- User Manual,200,OK,Grupo de Usuários 1-1,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,95,0,0
+1774309817421,441,01-Home,200,OK,Grupo de Usuários 1-4,text,true,,142831,1158,6,7,https://jmeter.apache.org/,134,0,92
+1774309817421,141,01-Home-0,200,OK,Grupo de Usuários 1-4,text,true,,22330,122,6,7,https://jmeter.apache.org/,134,0,92
+1774309817564,298,01-Home-1,200,OK,Grupo de Usuários 1-4,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,298,0,178
+1774309817564,169,01-Home-2,200,OK,Grupo de Usuários 1-4,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,163,0,110
+1774309817564,133,01-Home-3,200,OK,Grupo de Usuários 1-4,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,132,0,89
+1774309817564,45,01-Home-4,200,OK,Grupo de Usuários 1-4,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,44,0,0
+1774309817564,147,01-Home-5,200,OK,Grupo de Usuários 1-4,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,138,0,93
+1774309817564,150,01-Home-6,200,OK,Grupo de Usuários 1-4,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,137,0,93
+1774309817610,136,01-Home-7,200,OK,Grupo de Usuários 1-4,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,135,0,93
+1774309817863,131,02- User Manual,200,OK,Grupo de Usuários 1-4,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,97,0,0
+1774309816765,1301,01-Home,200,OK,Grupo de Usuários 1-2,text,true,,142831,1158,6,7,https://jmeter.apache.org/,141,0,98
+1774309816765,149,01-Home-0,200,OK,Grupo de Usuários 1-2,text,true,,22330,122,6,7,https://jmeter.apache.org/,141,0,98
+1774309816916,298,01-Home-1,200,OK,Grupo de Usuários 1-2,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,298,0,184
+1774309816916,164,01-Home-2,200,OK,Grupo de Usuários 1-2,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,160,0,108
+1774309816916,144,01-Home-3,200,OK,Grupo de Usuários 1-2,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,143,0,99
+1774309816916,45,01-Home-4,200,OK,Grupo de Usuários 1-2,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,44,0,0
+1774309816916,1150,01-Home-5,200,OK,Grupo de Usuários 1-2,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,1141,0,1098
+1774309816916,154,01-Home-6,200,OK,Grupo de Usuários 1-2,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,141,0,97
+1774309816962,144,01-Home-7,200,OK,Grupo de Usuários 1-2,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,144,0,101
+1774309818066,128,02- User Manual,200,OK,Grupo de Usuários 1-2,text,true,,47108,133,6,7,https://jmeter.apache.org/usermanual/,87,0,0
+1774309817782,1322,01-Home,200,OK,Grupo de Usuários 1-3,text,true,,142831,1158,6,7,https://jmeter.apache.org/,142,0,99
+1774309817782,150,01-Home-0,200,OK,Grupo de Usuários 1-3,text,true,,22330,122,6,7,https://jmeter.apache.org/,142,0,99
+1774309817934,296,01-Home-1,200,OK,Grupo de Usuários 1-3,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,296,0,176
+1774309817934,162,01-Home-2,200,OK,Grupo de Usuários 1-3,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,158,0,106
+1774309817934,48,01-Home-3,200,OK,Grupo de Usuários 1-3,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,44,0,0
+1774309817934,134,01-Home-4,200,OK,Grupo de Usuários 1-3,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,133,0,91
+1774309817934,1170,01-Home-5,200,OK,Grupo de Usuários 1-3,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,1159,0,1113
+1774309817934,155,01-Home-6,200,OK,Grupo de Usuários 1-3,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,141,0,97
+1774309817982,135,01-Home-7,200,OK,Grupo de Usuários 1-3,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,134,0,92
+1774309819106,106,02- User Manual,200,OK,Grupo de Usuários 1-3,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,95,0,0
+1774309812292,8344,01-Home,200,OK,Grupo de Usuários 1-6,text,true,,142831,1158,6,7,https://jmeter.apache.org/,7181,0,7136
+1774309812292,7188,01-Home-0,200,OK,Grupo de Usuários 1-6,text,true,,22330,122,6,7,https://jmeter.apache.org/,7181,0,7136
+1774309819484,316,01-Home-1,200,OK,Grupo de Usuários 1-6,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,311,0,193
+1774309819484,171,01-Home-2,200,OK,Grupo de Usuários 1-6,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,162,0,109
+1774309819484,1152,01-Home-3,200,OK,Grupo de Usuários 1-6,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,1151,0,1109
+1774309819484,1131,01-Home-4,200,OK,Grupo de Usuários 1-6,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,1130,0,1090
+1774309819484,151,01-Home-5,200,OK,Grupo de Usuários 1-6,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,142,0,98
+1774309819484,81,01-Home-6,200,OK,Grupo de Usuários 1-6,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,44,0,0
+1774309819566,145,01-Home-7,200,OK,Grupo de Usuários 1-6,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,144,0,100
+1774309820637,127,02- User Manual,200,OK,Grupo de Usuários 1-6,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,87,0,0
+1774309819768,1306,01-Home,200,OK,Grupo de Usuários 1-5,text,true,,142831,1158,6,7,https://jmeter.apache.org/,144,0,100
+1774309819768,151,01-Home-0,200,OK,Grupo de Usuários 1-5,text,true,,22330,122,6,7,https://jmeter.apache.org/,144,0,100
+1774309819922,293,01-Home-1,200,OK,Grupo de Usuários 1-5,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,292,0,177
+1774309819922,176,01-Home-2,200,OK,Grupo de Usuários 1-5,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,171,0,116
+1774309819922,147,01-Home-3,200,OK,Grupo de Usuários 1-5,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,145,0,101
+1774309819922,1152,01-Home-4,200,OK,Grupo de Usuários 1-5,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,1150,0,1108
+1774309819922,55,01-Home-5,200,OK,Grupo de Usuários 1-5,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,44,0,0
+1774309819922,161,01-Home-6,200,OK,Grupo de Usuários 1-5,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,147,0,104
+1774309819977,143,01-Home-7,200,OK,Grupo de Usuários 1-5,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,143,0,101
+1774309821075,129,02- User Manual,200,OK,Grupo de Usuários 1-5,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,87,0,0
+1774309820304,1310,01-Home,200,OK,Grupo de Usuários 1-1,text,true,,142831,1158,6,7,https://jmeter.apache.org/,154,0,110
+1774309820304,162,01-Home-0,200,OK,Grupo de Usuários 1-1,text,true,,22330,122,6,7,https://jmeter.apache.org/,154,0,110
+1774309820469,298,01-Home-1,200,OK,Grupo de Usuários 1-1,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,298,0,181
+1774309820469,162,01-Home-2,200,OK,Grupo de Usuários 1-1,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,157,0,105
+1774309820469,1145,01-Home-3,200,OK,Grupo de Usuários 1-1,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,1143,0,1099
+1774309820469,140,01-Home-4,200,OK,Grupo de Usuários 1-1,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,139,0,95
+1774309820469,54,01-Home-5,200,OK,Grupo de Usuários 1-1,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,44,0,0
+1774309820469,156,01-Home-6,200,OK,Grupo de Usuários 1-1,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,141,0,98
+1774309820524,137,01-Home-7,200,OK,Grupo de Usuários 1-1,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,136,0,94
+1774309821615,130,02- User Manual,200,OK,Grupo de Usuários 1-1,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,88,0,0
+1774309821007,1342,01-Home,200,OK,Grupo de Usuários 1-4,text,true,,142831,1158,6,7,https://jmeter.apache.org/,156,0,111
+1774309821007,165,01-Home-0,200,OK,Grupo de Usuários 1-4,text,true,,22330,122,6,7,https://jmeter.apache.org/,156,0,111
+1774309821175,292,01-Home-1,200,OK,Grupo de Usuários 1-4,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,292,0,176
+1774309821175,162,01-Home-2,200,OK,Grupo de Usuários 1-4,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,158,0,106
+1774309821175,134,01-Home-3,200,OK,Grupo de Usuários 1-4,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,133,0,91
+1774309821175,50,01-Home-4,200,OK,Grupo de Usuários 1-4,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,45,0,0
+1774309821175,141,01-Home-5,200,OK,Grupo de Usuários 1-4,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,132,0,91
+1774309821175,1174,01-Home-6,200,OK,Grupo de Usuários 1-4,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,1160,0,1115
+1774309821225,131,01-Home-7,200,OK,Grupo de Usuários 1-4,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,131,0,89
+1774309822351,107,02- User Manual,200,OK,Grupo de Usuários 1-4,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,96,0,0
+1774309821211,1304,01-Home,200,OK,Grupo de Usuários 1-2,text,true,,142831,1158,6,7,https://jmeter.apache.org/,132,0,90
+1774309821211,139,01-Home-0,200,OK,Grupo de Usuários 1-2,text,true,,22330,122,6,7,https://jmeter.apache.org/,132,0,90
+1774309821351,294,01-Home-1,200,OK,Grupo de Usuários 1-2,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,293,0,173
+1774309821351,166,01-Home-2,200,OK,Grupo de Usuários 1-2,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,162,0,109
+1774309821351,145,01-Home-3,200,OK,Grupo de Usuários 1-2,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,142,0,98
+1774309821351,44,01-Home-4,200,OK,Grupo de Usuários 1-2,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,43,0,0
+1774309821351,154,01-Home-5,200,OK,Grupo de Usuários 1-2,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,145,0,100
+1774309821351,1164,01-Home-6,200,OK,Grupo de Usuários 1-2,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,1151,0,1109
+1774309821396,142,01-Home-7,200,OK,Grupo de Usuários 1-2,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,141,0,99
+1774309822516,128,02- User Manual,200,OK,Grupo de Usuários 1-2,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,94,0,0
+1774309801883,21119,home/favicon.ico-2,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:80 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2721,0,1,7,http://jmeter.org/favicon.ico,0,0,21119
+1774309823006,180,home/canonical.html-3,200,OK,Thread Group 2 2-1,text,true,,298,324,1,7,http://detectportal.firefox.com/canonical.html,180,0,129
+1774309823186,51,home/success.txt-4,200,OK,Thread Group 2 2-1,text,true,,216,341,1,7,http://detectportal.firefox.com/success.txt?ipv4,51,0,0
+1774309823238,51,home/success.txt-5,200,OK,Thread Group 2 2-1,text,true,,216,341,1,7,http://detectportal.firefox.com/success.txt?ipv6,51,0,0
+1774309822227,1321,01-Home,200,OK,Grupo de Usuários 1-3,text,true,,142831,1158,6,7,https://jmeter.apache.org/,159,0,115
+1774309822227,167,01-Home-0,200,OK,Grupo de Usuários 1-3,text,true,,22330,122,6,7,https://jmeter.apache.org/,159,0,115
+1774309822397,294,01-Home-1,200,OK,Grupo de Usuários 1-3,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,294,0,179
+1774309822397,166,01-Home-2,200,OK,Grupo de Usuários 1-3,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,159,0,106
+1774309822397,143,01-Home-3,200,OK,Grupo de Usuários 1-3,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,140,0,95
+1774309822397,144,01-Home-4,200,OK,Grupo de Usuários 1-3,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,143,0,99
+1774309822397,1151,01-Home-5,200,OK,Grupo de Usuários 1-3,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,1139,0,1095
+1774309822397,60,01-Home-6,200,OK,Grupo de Usuários 1-3,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,44,0,0
+1774309822457,138,01-Home-7,200,OK,Grupo de Usuários 1-3,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,137,0,96
+1774309823549,104,02- User Manual,200,OK,Grupo de Usuários 1-3,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,94,0,0
+1774309824218,463,01-Home,200,OK,Grupo de Usuários 1-5,text,true,,142831,1158,6,7,https://jmeter.apache.org/,158,0,114
+1774309824218,166,01-Home-0,200,OK,Grupo de Usuários 1-5,text,true,,22330,122,6,7,https://jmeter.apache.org/,158,0,114
+1774309824388,293,01-Home-1,200,OK,Grupo de Usuários 1-5,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,293,0,179
+1774309824388,162,01-Home-2,200,OK,Grupo de Usuários 1-5,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,157,0,105
+1774309824388,53,01-Home-3,200,OK,Grupo de Usuários 1-5,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,43,0,0
+1774309824388,137,01-Home-4,200,OK,Grupo de Usuários 1-5,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,136,0,93
+1774309824388,144,01-Home-5,200,OK,Grupo de Usuários 1-5,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,135,0,93
+1774309824388,157,01-Home-6,200,OK,Grupo de Usuários 1-5,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,142,0,100
+1774309824442,135,01-Home-7,200,OK,Grupo de Usuários 1-5,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,134,0,93
+1774309824682,106,02- User Manual,200,OK,Grupo de Usuários 1-5,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,98,0,0
+1774309823783,1325,01-Home,200,OK,Grupo de Usuários 1-6,text,true,,142831,1158,6,7,https://jmeter.apache.org/,159,0,115
+1774309823783,167,01-Home-0,200,OK,Grupo de Usuários 1-6,text,true,,22330,122,6,7,https://jmeter.apache.org/,159,0,115
+1774309823953,301,01-Home-1,200,OK,Grupo de Usuários 1-6,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,301,0,188
+1774309823953,167,01-Home-2,200,OK,Grupo de Usuários 1-6,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,161,0,108
+1774309823953,48,01-Home-3,200,OK,Grupo de Usuários 1-6,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,45,0,0
+1774309823953,145,01-Home-4,200,OK,Grupo de Usuários 1-6,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,144,0,99
+1774309823953,1155,01-Home-5,200,OK,Grupo de Usuários 1-6,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,1145,0,1102
+1774309823953,156,01-Home-6,200,OK,Grupo de Usuários 1-6,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,141,0,98
+1774309824003,137,01-Home-7,200,OK,Grupo de Usuários 1-6,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,137,0,95
+1774309825109,109,02- User Manual,200,OK,Grupo de Usuários 1-6,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,99,0,0
+1774309824751,1329,01-Home,200,OK,Grupo de Usuários 1-1,text,true,,142831,1158,6,7,https://jmeter.apache.org/,154,0,109
+1774309824751,161,01-Home-0,200,OK,Grupo de Usuários 1-1,text,true,,22330,122,6,7,https://jmeter.apache.org/,154,0,109
+1774309824915,279,01-Home-1,200,OK,Grupo de Usuários 1-1,text,true,,886,158,6,7,https://fonts.googleapis.com/css?family=Merriweather:400normal,279,0,167
+1774309824915,168,01-Home-2,200,OK,Grupo de Usuários 1-1,text,true,,29682,171,6,7,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,163,0,111
+1774309824915,1165,01-Home-3,200,OK,Grupo de Usuários 1-1,text,true,,11894,139,6,7,https://jmeter.apache.org/css/new-style.css,1160,0,1115
+1774309824915,49,01-Home-4,200,OK,Grupo de Usuários 1-1,bin,true,,6293,140,6,7,https://jmeter.apache.org/images/favicon.png,47,0,0
+1774309824915,154,01-Home-5,200,OK,Grupo de Usuários 1-1,text,true,,28866,141,6,7,https://jmeter.apache.org/images/asf-logo.svg,144,0,100
+1774309824915,161,01-Home-6,200,OK,Grupo de Usuários 1-1,text,true,,36554,137,6,7,https://jmeter.apache.org/images/logo.svg,146,0,100
+1774309824966,138,01-Home-7,200,OK,Grupo de Usuários 1-1,bin,true,,6326,150,6,7,https://www.apache.org/events/current-event-234x60.png,137,0,95
+1774309826083,134,02- User Manual,200,OK,Grupo de Usuários 1-1,text,true,,47109,133,6,7,https://jmeter.apache.org/usermanual/,93,0,0
+1774309825474,1344,01-Home,200,OK,Grupo de Usuários 1-4,text,true,,142831,1158,5,6,https://jmeter.apache.org/,153,0,108
+1774309825474,162,01-Home-0,200,OK,Grupo de Usuários 1-4,text,true,,22330,122,5,6,https://jmeter.apache.org/,153,0,108
+1774309825640,300,01-Home-1,200,OK,Grupo de Usuários 1-4,text,true,,886,158,5,6,https://fonts.googleapis.com/css?family=Merriweather:400normal,300,0,183
+1774309825640,178,01-Home-2,200,OK,Grupo de Usuários 1-4,text,true,,29682,171,5,6,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,173,0,120
+1774309825640,162,01-Home-3,200,OK,Grupo de Usuários 1-4,text,true,,11894,139,5,6,https://jmeter.apache.org/css/new-style.css,159,0,115
+1774309825640,161,01-Home-4,200,OK,Grupo de Usuários 1-4,bin,true,,6293,140,5,6,https://jmeter.apache.org/images/favicon.png,160,0,116
+1774309825640,61,01-Home-5,200,OK,Grupo de Usuários 1-4,text,true,,28866,141,5,6,https://jmeter.apache.org/images/asf-logo.svg,46,0,0
+1774309825640,1178,01-Home-6,200,OK,Grupo de Usuários 1-4,text,true,,36554,137,5,6,https://jmeter.apache.org/images/logo.svg,1163,0,1119
+1774309825702,149,01-Home-7,200,OK,Grupo de Usuários 1-4,bin,true,,6326,150,5,6,https://www.apache.org/events/current-event-234x60.png,148,0,104
+1774309826819,100,02- User Manual,200,OK,Grupo de Usuários 1-4,text,true,,47109,133,5,6,https://jmeter.apache.org/usermanual/,94,0,0
+1774309825648,1311,01-Home,200,OK,Grupo de Usuários 1-2,text,true,,142831,1158,4,5,https://jmeter.apache.org/,153,0,110
+1774309825648,160,01-Home-0,200,OK,Grupo de Usuários 1-2,text,true,,22330,122,4,5,https://jmeter.apache.org/,153,0,110
+1774309825811,288,01-Home-1,200,OK,Grupo de Usuários 1-2,text,true,,886,158,4,5,https://fonts.googleapis.com/css?family=Merriweather:400normal,288,0,172
+1774309825811,164,01-Home-2,200,OK,Grupo de Usuários 1-2,text,true,,29682,171,4,5,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,157,0,104
+1774309825811,1148,01-Home-3,200,OK,Grupo de Usuários 1-2,text,true,,11894,139,4,5,https://jmeter.apache.org/css/new-style.css,1147,0,1103
+1774309825811,135,01-Home-4,200,OK,Grupo de Usuários 1-2,bin,true,,6293,140,4,5,https://jmeter.apache.org/images/favicon.png,134,0,91
+1774309825811,54,01-Home-5,200,OK,Grupo de Usuários 1-2,text,true,,28866,141,4,5,https://jmeter.apache.org/images/asf-logo.svg,42,0,0
+1774309825811,152,01-Home-6,200,OK,Grupo de Usuários 1-2,text,true,,36554,137,4,5,https://jmeter.apache.org/images/logo.svg,139,0,95
+1774309825865,140,01-Home-7,200,OK,Grupo de Usuários 1-2,bin,true,,6326,150,4,5,https://www.apache.org/events/current-event-234x60.png,139,0,95
+1774309826960,129,02- User Manual,200,OK,Grupo de Usuários 1-2,text,true,,47109,133,4,5,https://jmeter.apache.org/usermanual/,85,0,0
+1774309826670,1313,01-Home,200,"Embedded resource download error:https://www.apache.org/events/current-event-234x60.png code:Non HTTP response code: java.net.SocketException message:Non HTTP response message: Socket operation on nonsocket: connect, ",Grupo de Usuários 1-3,text,false,,139118,1008,3,4,https://jmeter.apache.org/,155,0,110
+1774309826670,162,01-Home-0,200,OK,Grupo de Usuários 1-3,text,true,,22330,122,3,4,https://jmeter.apache.org/,155,0,110
+1774309826835,305,01-Home-1,200,OK,Grupo de Usuários 1-3,text,true,,886,158,3,4,https://fonts.googleapis.com/css?family=Merriweather:400normal,305,0,177
+1774309826835,168,01-Home-2,200,OK,Grupo de Usuários 1-3,text,true,,29682,171,3,4,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,163,0,111
+1774309826835,48,01-Home-3,200,OK,Grupo de Usuários 1-3,text,true,,11894,139,3,4,https://jmeter.apache.org/css/new-style.css,43,0,0
+1774309826835,135,01-Home-4,200,OK,Grupo de Usuários 1-3,bin,true,,6293,140,3,4,https://jmeter.apache.org/images/favicon.png,134,0,92
+1774309826835,1148,01-Home-5,200,OK,Grupo de Usuários 1-3,text,true,,28866,141,3,4,https://jmeter.apache.org/images/asf-logo.svg,1139,0,1096
+1774309826835,153,01-Home-6,200,OK,Grupo de Usuários 1-3,text,true,,36555,137,3,4,https://jmeter.apache.org/images/logo.svg,139,0,96
+1774309826884,37,01-Home-7,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,Grupo de Usuários 1-3,text,false,,2612,0,3,4,https://www.apache.org/events/current-event-234x60.png,0,0,37
+1774309827805,1332,01-Home,200,OK,Grupo de Usuários 1-5,text,true,,142831,1158,2,3,https://jmeter.apache.org/,149,0,105
+1774309827805,155,01-Home-0,200,OK,Grupo de Usuários 1-5,text,true,,22330,122,2,3,https://jmeter.apache.org/,149,0,105
+1774309827963,292,01-Home-1,200,OK,Grupo de Usuários 1-5,text,true,,886,158,2,3,https://fonts.googleapis.com/css?family=Merriweather:400normal,292,0,179
+1774309827963,168,01-Home-2,200,OK,Grupo de Usuários 1-5,text,true,,29682,171,2,3,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,162,0,106
+1774309827963,140,01-Home-3,200,OK,Grupo de Usuários 1-5,text,true,,11894,139,2,3,https://jmeter.apache.org/css/new-style.css,138,0,95
+1774309827963,45,01-Home-4,200,OK,Grupo de Usuários 1-5,bin,true,,6293,140,2,3,https://jmeter.apache.org/images/favicon.png,44,0,0
+1774309827963,1174,01-Home-5,200,OK,Grupo de Usuários 1-5,text,true,,28866,141,2,3,https://jmeter.apache.org/images/asf-logo.svg,1161,0,1116
+1774309827963,154,01-Home-6,200,OK,Grupo de Usuários 1-5,text,true,,36554,137,2,3,https://jmeter.apache.org/images/logo.svg,140,0,96
+1774309828010,141,01-Home-7,200,OK,Grupo de Usuários 1-5,bin,true,,6326,150,2,3,https://www.apache.org/events/current-event-234x60.png,141,0,96
+1774309829138,110,02- User Manual,200,OK,Grupo de Usuários 1-5,text,true,,47109,133,2,3,https://jmeter.apache.org/usermanual/,101,0,0
+1774309828234,1335,01-Home,200,OK,Grupo de Usuários 1-6,text,true,,142831,1158,1,2,https://jmeter.apache.org/,160,0,115
+1774309828234,167,01-Home-0,200,OK,Grupo de Usuários 1-6,text,true,,22330,122,1,2,https://jmeter.apache.org/,160,0,115
+1774309828404,292,01-Home-1,200,OK,Grupo de Usuários 1-6,text,true,,886,158,1,2,https://fonts.googleapis.com/css?family=Merriweather:400normal,292,0,175
+1774309828404,170,01-Home-2,200,OK,Grupo de Usuários 1-6,text,true,,29682,171,1,2,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,164,0,109
+1774309828404,1158,01-Home-3,200,OK,Grupo de Usuários 1-6,text,true,,11894,139,1,2,https://jmeter.apache.org/css/new-style.css,1155,0,1109
+1774309828404,139,01-Home-4,200,OK,Grupo de Usuários 1-6,bin,true,,6293,140,1,2,https://jmeter.apache.org/images/favicon.png,138,0,96
+1774309828404,1165,01-Home-5,200,OK,Grupo de Usuários 1-6,text,true,,28866,141,1,2,https://jmeter.apache.org/images/asf-logo.svg,1155,0,1110
+1774309828404,84,01-Home-6,200,OK,Grupo de Usuários 1-6,text,true,,36554,137,1,2,https://jmeter.apache.org/images/logo.svg,44,0,0
+1774309828489,140,01-Home-7,200,OK,Grupo de Usuários 1-6,bin,true,,6326,150,1,2,https://www.apache.org/events/current-event-234x60.png,139,0,95
+1774309829571,111,02- User Manual,200,OK,Grupo de Usuários 1-6,text,true,,47109,133,1,2,https://jmeter.apache.org/usermanual/,101,0,0
+1774309832694,1342,01-Home,200,OK,Grupo de Usuários 1-6,text,true,,142831,1158,1,2,https://jmeter.apache.org/,171,0,125
+1774309832694,179,01-Home-0,200,OK,Grupo de Usuários 1-6,text,true,,22330,122,1,2,https://jmeter.apache.org/,171,0,125
+1774309832875,307,01-Home-1,200,OK,Grupo de Usuários 1-6,text,true,,886,158,1,2,https://fonts.googleapis.com/css?family=Merriweather:400normal,306,0,184
+1774309832875,170,01-Home-2,200,OK,Grupo de Usuários 1-6,text,true,,29682,171,1,2,https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css,164,0,112
+1774309832875,49,01-Home-3,200,OK,Grupo de Usuários 1-6,text,true,,11894,139,1,2,https://jmeter.apache.org/css/new-style.css,45,0,0
+1774309832875,150,01-Home-4,200,OK,Grupo de Usuários 1-6,bin,true,,6293,140,1,2,https://jmeter.apache.org/images/favicon.png,148,0,103
+1774309832875,1161,01-Home-5,200,OK,Grupo de Usuários 1-6,text,true,,28866,141,1,2,https://jmeter.apache.org/images/asf-logo.svg,1152,0,1107
+1774309832875,165,01-Home-6,200,OK,Grupo de Usuários 1-6,text,true,,36554,137,1,2,https://jmeter.apache.org/images/logo.svg,151,0,105
+1774309832925,45,01-Home-7,200,OK,Grupo de Usuários 1-6,bin,true,,6326,150,1,2,https://www.apache.org/events/current-event-234x60.png,44,0,0
+1774309834042,103,02- User Manual,200,OK,Grupo de Usuários 1-6,text,true,,47109,133,1,2,https://jmeter.apache.org/usermanual/,95,0,0
+1774309823290,21037,home/home-6,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:80 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2721,0,1,1,http://jmeter.org/home,0,0,21037
+1774309844328,21053,home/favicon.ico-7,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:80 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2721,0,1,1,http://jmeter.org/favicon.ico,0,0,21053
+1774309865384,21034,home/home-8,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:5 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2720,0,1,1,http://jmeter.org:5/usermanual,0,0,21034
+1774309886420,21049,home/favicon.ico-9,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:80 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2721,0,1,1,http://jmeter.org/favicon.ico,0,0,21049
+1774309907471,21028,Manual/usermanual-10,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:80 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2721,0,1,1,http://jmeter.org/usermanual,0,0,21028
+1774309928501,123,Manual/canonical.html-12,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,123,0,70
+1774309928624,52,Manual/success.txt-14,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,52,0,0
+1774309928677,51,Manual/success.txt-13,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,51,0,0
+1774309928729,50,Manual/canonical.html-1,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,50,0,0
+1774309928780,50,Manual/success.txt-2,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,50,0,0
+1774309928830,50,Manual/success.txt-3,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,50,0,0
+1774309928881,52,Manual/canonical.html-4,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,52,0,0
+1774309928934,51,Manual/success.txt-5,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,50,0,0
+1774309928986,50,Manual/success.txt-6,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,50,0,0
+1774309929037,50,Manual/canonical.html-7,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,50,0,0
+1774309929087,50,Manual/success.txt-8,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,50,0,0
+1774309929138,50,Manual/success.txt-9,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,50,0,0
+1774309929188,50,Manual/canonical.html-10,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,50,0,0
+1774309929239,50,Manual/success.txt-12,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,50,0,0
+1774309929290,50,Manual/success.txt-11,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,50,0,0
+1774309929341,52,Manual/canonical.html-13,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,52,0,0
+1774309929393,51,Manual/success.txt-15,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,51,0,0
+1774309929444,50,Manual/success.txt-14,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,50,0,0
+1774309929494,51,Manual/canonical.html-17,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,51,0,0
+1774309929545,51,Manual/success.txt-19,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,51,0,0
+1774309929597,53,Manual/success.txt-18,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,53,0,0
+1774309929650,50,Manual/canonical.html-20,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,50,0,0
+1774309929701,50,Manual/success.txt-21,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,50,0,0
+1774309929751,51,Manual/success.txt-22,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,51,0,0
+1774309929803,21025,Manual/-16,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,Non HTTP response message: Connect to jmeter.org:80 [jmeter.org/67.192.73.99] failed: Connection timed out: connect,Thread Group 2 2-1,text,false,,2721,0,1,1,http://jmeter.org/,0,0,21025
+1774309950830,64,Manual/canonical.html-24,200,OK,Thread Group 2 2-1,text,true,,298,324,1,1,http://detectportal.firefox.com/canonical.html,64,0,0
+1774309950894,53,Manual/success.txt-25,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv4,53,0,0
+1774309950948,52,Manual/success.txt-26,200,OK,Thread Group 2 2-1,text,true,,216,341,1,1,http://detectportal.firefox.com/success.txt?ipv6,52,0,0

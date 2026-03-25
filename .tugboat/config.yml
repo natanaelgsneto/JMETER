@@ -1,0 +1,14 @@
+services:
+  jmeter:
+    image: openjdk:17-slim-buster
+    commands:
+      init:
+        - apt-get update && apt-get install -y wget unzip
+        - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.5.tgz
+        - tar -xzf apache-jmeter-5.5.tgz
+        - ln -s /apache-jmeter-5.5/bin/jmeter /usr/local/bin/jmeter
+      update:
+        # Entra na pasta onde estão os teus testes antes de dar permissão
+        - cd "Secao6-Ambiente completo" && chmod +x *.jmx
+      build:
+        - jmeter --version
