@@ -1,6 +1,6 @@
 services:
   jmeter:
-    image: image: openjdk:11-jre-slim
+    image: openjdk:11-jre-slim
     commands:
       init:
         - apt-get update && apt-get install -y wget unzip
