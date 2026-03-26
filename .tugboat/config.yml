@@ -1,12 +1,13 @@
 services:
   jmeter:
-    image: alpine
+    image: openjdk:11
     default: true
     checkout: true
 
     commands:
       build:
-        - apk add --no-cache openjdk11 wget bash
+        - apt-get update
+        - apt-get install -y wget
         - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
         - tar -xzf apache-jmeter-5.6.3.tgz
 
