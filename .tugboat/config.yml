@@ -1,4 +1,4 @@
-services:
+ services:
   jmeter:
     image: ubuntu:22.04
     default: true
@@ -13,3 +13,4 @@ services:
 
       start:
         - echo "JMeter pronto"
+        - sleep infinity
