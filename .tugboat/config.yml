@@ -1,4 +1,4 @@
-services:
+ services:
   app:
     image: tugboatqa/ubuntu:22.04
 
@@ -14,12 +14,20 @@ services:
       init:
         - mkdir -p /var/lib/app
 
+        # baixar jmx
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
+        # rodar jmeter (não quebra build)
         - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl || true
 
+        # gerar relatório (não quebra build)
         - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio || true
 
+        # garantir pasta html existe
+        - mkdir -p /var/www/html
+
+        # copiar relatório (não quebra build)
         - cp -r /var/lib/app/relatorio/* /var/www/html/ || true
 
+        # iniciar apache
         - service apache2 start
