@@ -5,13 +5,59 @@ services:
     commands:
       build:
         - apt-get update
-        - apt-get install -y git openjdk-17-jre wget unzip
+        - apt-get install -y git openjdk-17-jre wget unzip apache2
 
+        # instalar jmeter
         - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
         - tar -xvzf apache-jmeter-5.6.3.tgz
         - mv apache-jmeter-5.6.3 /opt/jmeter
 
       init:
+        # limpar e clonar projeto
         - rm -rf /var/lib/app
         - mkdir -p /var/lib/app
         - git clone https://github.com/natanaelgsneto/JMETER.git /var/lib/app
+
+        # rodar teste automaticamente
+        - /opt/jmeter/bin/jmeter -n -t /var/lib/app/seu_teste.jmx -l /var/lib/app/resultado.jtl
+
+        # gerar relatório
+        - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+
+        # copiar relatório para web
+        - rm -rf /var/www/html/*
+        - cp -r /var/lib/app/relatorio/* /var/www/html/
+
+        # iniciar apache
+        - service apache2 startservices:
+  app:
+    image: tugboatqa/ubuntu:22.04
+
+    commands:
+      build:
+        - apt-get update
+        - apt-get install -y git openjdk-17-jre wget unzip apache2
+
+        # instalar jmeter
+        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        - tar -xvzf apache-jmeter-5.6.3.tgz
+        - mv apache-jmeter-5.6.3 /opt/jmeter
+
+      init:
+        # limpar e clonar projeto
+        - rm -rf /var/lib/app
+        - mkdir -p /var/lib/app
+        - git clone https://github.com/natanaelgsneto/JMETER.git /var/lib/app
+
+        # rodar teste automaticamente
+        - /opt/jmeter/bin/jmeter -n -t /var/lib/app/seu_teste.jmx -l /var/lib/app/resultado.jtl
+
+        # gerar relatório
+        - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+
+        # copiar relatório para web
+        - rm -rf /var/www/html/*
+        - cp -r /var/lib/app/relatorio/* /var/www/html/
+
+        # iniciar apache
+        - service apache2 start
