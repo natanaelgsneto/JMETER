@@ -3,7 +3,7 @@ services:
     image: tugboatqa/ubuntu:22.04
 
     commands:
-      init:
+      build:
         - apt-get update
         - apt-get install -y git openjdk-17-jre wget unzip apache2
 
