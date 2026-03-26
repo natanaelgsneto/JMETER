@@ -7,32 +7,50 @@ services:
         - apt-get update
         - apt-get install -y git openjdk-17-jre wget unzip apache2
 
-        # instalar jmeter (versão estável)
+        # ===== INSTALAR JMETER (VERSÃO ESTÁVEL) =====
         - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
+
+        # validar download
+        - ls -lh apache-jmeter-5.6.3.tgz
+
+        # extrair
         - tar -xzf apache-jmeter-5.6.3.tgz
+
+        # verificar extração
+        - ls -l
+
+        # mover para pasta padrão
         - mv apache-jmeter-5.6.3 /opt/jmeter
+
+        # verificar instalação
+        - ls -l /opt/jmeter/bin
+
+        # dar permissão
         - chmod +x /opt/jmeter/bin/jmeter
 
-        # teste opcional
+        # TESTE FINAL (se isso aparecer, tá perfeito)
         - /opt/jmeter/bin/jmeter -v
 
       init:
-        # criar pasta
+        # ===== PREPARAR AMBIENTE =====
         - rm -rf /var/lib/app
         - mkdir -p /var/lib/app
 
-        # baixar jmx
+        # ===== BAIXAR SCRIPT DO CURSO =====
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # rodar teste
+        # validar script
+        - ls -l /var/lib/app
+
+        # ===== RODAR TESTE =====
         - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
 
-        # gerar relatório
+        # ===== GERAR RELATÓRIO =====
         - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
 
-        # publicar no apache
+        # ===== PUBLICAR NO APACHE =====
         - rm -rf /var/www/html/*
         - cp -r /var/lib/app/relatorio/* /var/www/html/
 
-        # subir servidor
+        # ===== SUBIR SERVIDOR =====
         - service apache2 start
