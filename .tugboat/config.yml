@@ -4,3 +4,7 @@ services:
       build:
         - apt-get update
         - apt-get install -y git
+
+      init:
+        - mkdir -p /var/lib/tugboat
+        - git clone https://github.com/natanaelgsneto/JMETER.git /var/lib/tugboat
