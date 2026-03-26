@@ -7,30 +7,28 @@ services:
         - apt-get update
         - apt-get install -y openjdk-17-jre wget unzip apache2
 
-        # instalar jmeter
+        # instalar JMeter
         - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
         - tar -xzf apache-jmeter-5.6.3.tgz
         - mv apache-jmeter-5.6.3 /opt/jmeter
-        - chmod +x /opt/jmeter/bin/jmeter
 
       init:
+        # preparar pasta
+        - rm -rf /var/lib/app
         - mkdir -p /var/lib/app
 
-        # criar .jmx direto (SEM arquivo externo)
-        - echo '<?xml version="1.0" encoding="UTF-8"?><jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3"><hashTree><TestPlan testname="Teste Tugboat"/><hashTree><ThreadGroup testname="Usuarios"><stringProp name="ThreadGroup.num_threads">1</stringProp><stringProp name="ThreadGroup.ramp_time">1</stringProp><elementProp name="ThreadGroup.main_controller" elementType="LoopController"><stringProp name="LoopController.loops">1</stringProp></elementProp></ThreadGroup><hashTree><HTTPSamplerProxy testname="GET Teste"><stringProp name="HTTPSampler.domain">httpbin.org</stringProp><stringProp name="HTTPSampler.protocol">https</stringProp><stringProp name="HTTPSampler.path">/get</stringProp></HTTPSamplerProxy><hashTree/></hashTree></hashTree></hashTree></jmeterTestPlan>' > /var/lib/app/teste.jmx
+        # baixar seu teste
+        - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # testar jmeter
-        - /opt/jmeter/bin/jmeter -v
-
-        # rodar teste (SEM quebrar build)
-        - /opt/jmeter/bin/jmeter -n -t /var/lib/app/teste.jmx -l /var/lib/app/resultado.jtl || true
+        # rodar teste (não quebra build)
+        - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl || true
 
         # gerar relatório
         - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio || true
 
         # publicar no apache
-        - mkdir -p /var/www/html
+        - rm -rf /var/www/html/*
         - cp -r /var/lib/app/relatorio/* /var/www/html/ || true
 
-        # subir apache corretamente (foreground)
-        - apachectl -D FOREGROUND
+        # subir apache
+        - service apache2 start
