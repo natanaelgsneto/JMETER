@@ -5,4 +5,5 @@ services:
 
     commands:
       start:
+        - echo "Container ativo"
         - tail -f /dev/null
