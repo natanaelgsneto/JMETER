@@ -1,9 +1,9 @@
 services:
-  jmeter:
+  app:
     image: ubuntu:22.04
     default: true
 
     commands:
       start:
-        - echo "ok"
-        - sleep 3600
+        - echo "container ativo"
+        - sleep infinity
