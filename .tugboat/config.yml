@@ -5,4 +5,5 @@ services:
 
     commands:
       start:
-        - tail -f /dev/null
+        - echo "ok"
+        - sleep 3600
