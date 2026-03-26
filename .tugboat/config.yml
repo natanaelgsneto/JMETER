@@ -2,10 +2,11 @@ services:
   jmeter:
     image: justb4/jmeter
     default: true
+    checkout: true
 
     commands:
       build:
-        - echo "Build do ambiente JMeter"
+        - echo "Build iniciado"
 
       start:
-        - echo "Ambiente pronto para uso"
+        - echo "Ambiente pronto"
