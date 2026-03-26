@@ -4,6 +4,9 @@ services:
     default: true
 
     commands:
+      build:
+        - apt-get update
+
       start:
         - echo "container ativo"
-        - sleep infinity
+        - tail -f /dev/null
