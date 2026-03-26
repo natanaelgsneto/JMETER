@@ -1,13 +1,11 @@
 services:
   jmeter:
-    image: openjdk:11-jdk-slim
+    image: justb4/jmeter
+    default: true
+
     commands:
-      init:
-        - apt-get update && apt-get install -y wget unzip
-        - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.5.tgz
-        - tar -xzf apache-jmeter-5.5.tgz
-        - ln -s /apache-jmeter-5.5/bin/jmeter /usr/local/bin/jmeter
-      update:
-        - cd secao6_ambiente_completo && chmod +x *.jmx
       build:
-        - jmeter --version
+        - echo "Build do ambiente JMeter"
+
+      start:
+        - echo "Ambiente pronto para uso"
