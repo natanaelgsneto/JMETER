@@ -7,23 +7,19 @@ services:
         - apt-get update
         - apt-get install -y git openjdk-17-jre wget unzip apache2
 
-        # instalar jmeter
+        # baixar jmeter
         - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
+
+        # extrair
         - tar -xzf apache-jmeter-5.6.3.tgz
 
-        # mover corretamente
-        - mv apache-jmeter-* /opt/jmeter
+        # VER O NOME REAL DA PASTA
+        - ls -l
 
-        # garantir execução
-        - chmod +x /opt/jmeter/bin/jmeter
-
-        # debug (IMPORTANTE)
-        - ls -l /opt/jmeter/bin
+        # testar direto da pasta (SEM MOVER)
+        - ./apache-jmeter-5.6.3/bin/jmeter -v
 
       init:
-        # verificar se existe (DEBUG FINAL)
-        - ls -l /opt/jmeter/bin
-
         # criar pasta
         - rm -rf /var/lib/app
         - mkdir -p /var/lib/app
@@ -31,11 +27,11 @@ services:
         # baixar jmx
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # rodar usando caminho completo (SEM PATH)
-        - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
+        # rodar teste DIRETO da pasta
+        - ./apache-jmeter-5.6.3/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
 
         # gerar relatório
-        - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+        - ./apache-jmeter-5.6.3/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
 
         # publicar
         - rm -rf /var/www/html/*
