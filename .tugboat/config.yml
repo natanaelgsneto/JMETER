@@ -1,4 +1,4 @@
-services:
+ services:
   app:
     image: tugboatqa/ubuntu:22.04
 
@@ -17,13 +17,13 @@ services:
 
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # 🔥 TESTE SE JMETER FUNCIONA
+        # TESTE DO JMETER
         - /opt/jmeter/bin/jmeter -v
 
-        # 🔥 NÃO QUEBRA O BUILD
+        # EXECUÇÃO (SEM QUEBRAR BUILD)
         - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl || true
 
-        # 🔥 GERA RELATÓRIO MESMO COM ERRO
+        # RELATÓRIO
         - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio || true
 
         # PUBLICAR
