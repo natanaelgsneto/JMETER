@@ -6,7 +6,7 @@ services:
 
     commands:
       build:
-        - echo "Build iniciado"
+        - echo "Build do ambiente JMeter"
 
       start:
-        - echo "Ambiente pronto"
+        - echo "Ambiente pronto para uso"
