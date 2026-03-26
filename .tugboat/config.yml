@@ -1,34 +1,27 @@
-services:
+ services:
   app:
     image: tugboatqa/ubuntu:22.04
 
     commands:
       build:
-        - apt-get update
-        - apt-get install -y git openjdk-17-jre wget unzip apache2
+        - |
+          apt-get update &&
+          apt-get install -y git openjdk-17-jre wget unzip apache2 &&
 
-        # ===== instalar jmeter =====
-        - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
-        - tar -xzf apache-jmeter-5.6.3.tgz
+          wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz &&
+          tar -xzf apache-jmeter-5.6.3.tgz &&
 
-        # validar
-        - ./apache-jmeter-5.6.3/bin/jmeter -v
+          ./apache-jmeter-5.6.3/bin/jmeter -v &&
 
-        # ===== preparar ambiente =====
-        - mkdir -p /var/lib/app
+          mkdir -p /var/lib/app &&
 
-        # baixar script
-        - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
+          wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx &&
 
-        # ===== rodar teste =====
-        - ./apache-jmeter-5.6.3/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
+          ./apache-jmeter-5.6.3/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl &&
 
-        # ===== gerar relatório =====
-        - ./apache-jmeter-5.6.3/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+          ./apache-jmeter-5.6.3/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio &&
 
-        # ===== publicar =====
-        - rm -rf /var/www/html/*
-        - cp -r /var/lib/app/relatorio/* /var/www/html/
+          rm -rf /var/www/html/* &&
+          cp -r /var/lib/app/relatorio/* /var/www/html/ &&
 
-        # ===== subir apache =====
-        - service apache2 start
+          service apache2 start
