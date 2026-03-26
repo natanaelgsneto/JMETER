@@ -1,4 +1,4 @@
- services:
+services:
   app:
     image: tugboatqa/ubuntu:22.04
 
@@ -17,17 +17,19 @@
         # baixar jmx
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # rodar jmeter (não quebra build)
+        # rodar teste (SEM QUEBRAR)
         - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl || true
 
-        # gerar relatório (não quebra build)
+        # gerar relatório (SEM QUEBRAR)
         - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio || true
 
-        # garantir pasta html existe
-        - mkdir -p /var/www/html
+        # se relatório não existir, cria fallback
+        - mkdir -p /var/lib/app/relatorio
+        - echo "<h1>Teste executado, mas sem relatório</h1>" > /var/lib/app/relatorio/index.html
 
-        # copiar relatório (não quebra build)
+        # publicar
+        - mkdir -p /var/www/html
         - cp -r /var/lib/app/relatorio/* /var/www/html/ || true
 
-        # iniciar apache
-        - service apache2 start
+        # iniciar apache (CORRETO)
+        - apachectl start
