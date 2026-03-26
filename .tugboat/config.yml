@@ -1,10 +1,13 @@
 services:
   php:
+    image: tugboatqa/php:8.2   # 👈 ESSA LINHA FALTAVA
+
     commands:
       build:
         - apt-get update
         - apt-get install -y git
 
       init:
+        - rm -rf /var/lib/tugboat
         - mkdir -p /var/lib/tugboat
         - git clone https://github.com/natanaelgsneto/JMETER.git /var/lib/tugboat
