@@ -1,4 +1,4 @@
- services:
+services:
   jmeter:
     image: ubuntu:22.04
     default: true
@@ -7,10 +7,10 @@
     commands:
       build:
         - apt-get update
-        - apt-get install -y openjdk-11-jdk wget
-        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        - apt-get install -y openjdk-11-jdk wget tar
+        - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
         - tar -xzf apache-jmeter-5.6.3.tgz
 
       start:
-        - echo "JMeter pronto"
-        - sleep infinity
+        - echo "JMeter iniciado"
+        - tail -f /dev/null
