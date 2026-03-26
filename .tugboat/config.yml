@@ -1,6 +1,6 @@
 services:
   jmeter:
-    image: openjdk:11-jre-slim
+    image: openjdk:11-jdk-slim
     commands:
       init:
         - apt-get update && apt-get install -y wget unzip
@@ -8,7 +8,6 @@ services:
         - tar -xzf apache-jmeter-5.5.tgz
         - ln -s /apache-jmeter-5.5/bin/jmeter /usr/local/bin/jmeter
       update:
-        # Agora o caminho bate exatamente com o seu GitHub (sem espaços)
         - cd secao6_ambiente_completo && chmod +x *.jmx
       build:
         - jmeter --version
