@@ -8,7 +8,7 @@ services:
         - tar -xzf apache-jmeter-5.5.tgz
         - ln -s /apache-jmeter-5.5/bin/jmeter /usr/local/bin/jmeter
       update:
-        # Entra na pasta onde estão os teus testes antes de dar permissão
-        - cd "Secao6-Ambiente completo" && chmod +x *.jmx
+        # Agora o caminho bate exatamente com o seu GitHub (sem espaços)
+        - cd secao6_ambiente_completo && chmod +x *.jmx
       build:
         - jmeter --version
