@@ -7,10 +7,14 @@ services:
         - apt-get update
         - apt-get install -y git openjdk-17-jre wget unzip apache2
 
-        # instalar jmeter
-        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
-        - tar -xvzf apache-jmeter-5.6.3.tgz
+        # instalar jmeter (versão estável)
+        - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        - tar -xzf apache-jmeter-5.6.3.tgz
         - mv apache-jmeter-5.6.3 /opt/jmeter
+        - chmod +x /opt/jmeter/bin/jmeter
+
+        # teste opcional
+        - /opt/jmeter/bin/jmeter -v
 
       init:
         # criar pasta
