@@ -1,12 +1,14 @@
 services:
   jmeter:
-    image: justb4/jmeter
+    image: alpine
     default: true
     checkout: true
 
     commands:
       build:
-        - echo "Build do ambiente JMeter"
+        - apk add --no-cache openjdk11 wget bash
+        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        - tar -xzf apache-jmeter-5.6.3.tgz
 
       start:
-        - echo "Ambiente pronto para uso"
+        - echo "JMeter pronto"
