@@ -1,12 +1,4 @@
 services:
-  app:
-    image: ubuntu:22.04
+  web:
+    image: nginx:alpine
     default: true
-
-    commands:
-      build:
-        - apt-get update
-
-      start:
-        - echo "container ativo"
-        - tail -f /dev/null
