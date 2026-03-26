@@ -1,39 +1,33 @@
-services:
-  app:
-    image: tugboatqa/ubuntu:22.04
+#!/bin/bash
+set -e
 
-    commands:
-      build:
-        - |
-          set -e
+apt-get update
+apt-get install -y git openjdk-17-jre wget unzip apache2
 
-          apt-get update
-          apt-get install -y git openjdk-17-jre wget unzip apache2
+echo "=== Baixando JMeter ==="
+wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
 
-          echo "=== Baixando JMeter ==="
-          wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
+echo "=== Extraindo ==="
+tar -xzf apache-jmeter-5.6.3.tgz
 
-          echo "=== Extraindo ==="
-          tar -xzf apache-jmeter-5.6.3.tgz
+echo "=== Testando ==="
+./apache-jmeter-5.6.3/bin/jmeter -v
 
-          echo "=== Testando JMeter ==="
-          ./apache-jmeter-5.6.3/bin/jmeter -v
+echo "=== Preparando ambiente ==="
+mkdir -p /var/lib/app
 
-          echo "=== Preparando ambiente ==="
-          mkdir -p /var/lib/app
+echo "=== Baixando JMX ==="
+wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-          echo "=== Baixando JMX ==="
-          wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
+echo "=== Rodando teste ==="
+./apache-jmeter-5.6.3/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
 
-          echo "=== Rodando teste ==="
-          ./apache-jmeter-5.6.3/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
+echo "=== Gerando relatório ==="
+./apache-jmeter-5.6.3/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
 
-          echo "=== Gerando relatório ==="
-          ./apache-jmeter-5.6.3/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+echo "=== Publicando ==="
+rm -rf /var/www/html/*
+cp -r /var/lib/app/relatorio/* /var/www/html/
 
-          echo "=== Publicando ==="
-          rm -rf /var/www/html/*
-          cp -r /var/lib/app/relatorio/* /var/www/html/
-
-          echo "=== Subindo Apache ==="
-          service apache2 start
+echo "=== Subindo Apache ==="
+service apache2 start
