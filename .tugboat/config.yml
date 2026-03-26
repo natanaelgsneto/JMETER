@@ -1,6 +1,6 @@
 services:
   jmeter:
-    image: openjdk:11
+    image: eclipse-temurin:11
     default: true
     checkout: true
 
