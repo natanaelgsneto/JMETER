@@ -17,17 +17,15 @@ services:
 
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # DEBUG (MOSTRAR SE FUNCIONA)
+        # 🔥 TESTE SE JMETER FUNCIONA
         - /opt/jmeter/bin/jmeter -v
 
-        # RODAR TESTE (COM FAIL CONTROLADO)
+        # 🔥 NÃO QUEBRA O BUILD
         - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl || true
 
-        # GERAR RELATÓRIO
+        # 🔥 GERA RELATÓRIO MESMO COM ERRO
         - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio || true
 
-        # PUBLICAR (MESMO SE DER ERRO)
+        # PUBLICAR
         - mkdir -p /var/www/html
         - cp -r /var/lib/app/relatorio/* /var/www/html/ || true
-
-        # NÃO iniciar apache (evita erro) 
