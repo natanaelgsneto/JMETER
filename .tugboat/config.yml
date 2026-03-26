@@ -7,18 +7,19 @@ services:
         - apt-get update
         - apt-get install -y openjdk-17-jre wget unzip apache2
 
-        # baixar jmeter
+        # instalar jmeter
         - wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
         - tar -xzf apache-jmeter-5.6.3.tgz
         - mv apache-jmeter-5.6.3 /opt/jmeter
+        - chmod +x /opt/jmeter/bin/jmeter
 
       init:
         - mkdir -p /var/lib/app
 
-        # 🔥 baixar direto (SEM GIT)
+        # baixar jmx
         - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
-        # rodar jmeter
+        # rodar teste
         - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
 
         # gerar relatório
