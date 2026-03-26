@@ -1,17 +1,34 @@
-init:
-  - rm -rf /var/lib/app
-  - mkdir -p /var/lib/app
+services:
+  app:
+    image: tugboatqa/ubuntu:22.04
 
-  # baixar o jmx direto
-  - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
+    commands:
+      build:
+        - apt-get update
+        - apt-get install -y git openjdk-17-jre wget unzip apache2
 
-  # rodar teste
-  - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
+        # instalar jmeter
+        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        - tar -xvzf apache-jmeter-5.6.3.tgz
+        - mv apache-jmeter-5.6.3 /opt/jmeter
 
-  # gerar relatório
-  - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+      init:
+        # criar pasta
+        - rm -rf /var/lib/app
+        - mkdir -p /var/lib/app
 
-  # subir web
-  - rm -rf /var/www/html/*
-  - cp -r /var/lib/app/relatorio/* /var/www/html/
-  - service apache2 start
+        # baixar jmx
+        - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
+
+        # rodar teste
+        - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
+
+        # gerar relatório
+        - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
+
+        # publicar no apache
+        - rm -rf /var/www/html/*
+        - cp -r /var/lib/app/relatorio/* /var/www/html/
+
+        # subir servidor
+        - service apache2 start
