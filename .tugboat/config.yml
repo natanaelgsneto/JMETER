@@ -2,12 +2,13 @@ services:
   web:
     image: ubuntu:22.04
 
-    init:
-      - apt-get update
-      - apt-get install -y apache2
-      - echo "<h1>FUNCIONOU</h1>" > /var/www/html/index.html
+    commands:
+      init:
+        - apt-get update
+        - apt-get install -y apache2
+        - echo "<h1>FUNCIONOU</h1>" > /var/www/html/index.html
 
-    start:
-      - /usr/sbin/apache2ctl -D FOREGROUND
+      start:
+        - /usr/sbin/apache2ctl -D FOREGROUND
 
     expose: 80
