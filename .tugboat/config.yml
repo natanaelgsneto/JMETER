@@ -4,13 +4,16 @@ services:
 
     commands:
       init:
+        # instalar utilitários
         - apt-get update
         - apt-get install -y wget unzip
 
-        # Baixar JMeter
+        # baixar JMeter
         - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.zip
         - unzip apache-jmeter-5.6.3.zip
 
       start:
-        - ./apache-jmeter-5.6.3/bin/jmeter -n -t teste.jmx -l resultados.jtl
+        # rodar o teste que já está no repositório
+        - ./apache-jmeter-5.6.3/bin/jmeter -n -t secao6_ambiente_completo/teste.jmx -l resultados.jtl
+        # manter o container vivo
         - sleep infinity
