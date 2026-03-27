@@ -3,25 +3,38 @@ services:
     image: ubuntu:22.04
 
     init:
+      # Atualiza pacotes
       - apt-get update
+
+      # Instala dependências
       - apt-get install -y openjdk-11-jre wget unzip apache2
 
+      # Baixa o JMeter
       - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+
+      # Extrai o JMeter
       - tar -xvzf apache-jmeter-5.6.3.tgz
+
+      # Move para /opt
       - mv apache-jmeter-5.6.3 /opt/jmeter
 
+      # Cria pasta do app
       - mkdir -p /var/lib/app
 
+      # Baixa seu teste JMX
       - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
 
+      # Executa teste JMeter
       - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl
 
+      # Gera relatório HTML
       - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio
 
+      # Copia relatório para pasta web
       - cp -r /var/lib/app/relatorio/* /var/www/html/
 
     start:
-      - service apache2 start
-      - tail -f /dev/null
+      # Mantém o Apache rodando corretamente no container
+      - apachectl -D FOREGROUND
 
     expose: 80
