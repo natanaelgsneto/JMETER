@@ -4,29 +4,12 @@ services:
 
     init:
       - apt-get update
-      - apt-get install -y openjdk-11-jre wget unzip apache2
+      - apt-get install -y apache2
 
-      # Garante diretório do Apache
       - mkdir -p /var/www/html
-
-      # Baixa JMeter
-      - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
-      - tar -xvzf apache-jmeter-5.6.3.tgz
-      - mv apache-jmeter-5.6.3 /opt/jmeter
-
-      # App
-      - mkdir -p /var/lib/app
-
-      - wget https://raw.githubusercontent.com/natanaelgsneto/JMETER/main/secao6_ambiente_completo/pronto.jmx -O /var/lib/app/pronto.jmx
-
-      - /opt/jmeter/bin/jmeter -n -t /var/lib/app/pronto.jmx -l /var/lib/app/resultado.jtl || true
-
-      - /opt/jmeter/bin/jmeter -g /var/lib/app/resultado.jtl -o /var/lib/app/relatorio || true
-
-      - cp -r /var/lib/app/relatorio/* /var/www/html/ || true
+      - echo "<h1>FUNCIONOU</h1>" > /var/www/html/index.html
 
     start:
-      # Força Apache rodar corretamente
       - /usr/sbin/apache2ctl -D FOREGROUND
 
     expose: 80
