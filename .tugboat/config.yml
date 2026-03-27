@@ -1,19 +1,23 @@
 services:
   web:
-    image: openjdk:11
+    image: eclipse-temurin:11-jdk
 
     commands:
       init:
-        # instalar utilitários
+        - echo "🚀 Iniciando ambiente JMeter..."
         - apt-get update
         - apt-get install -y wget unzip
 
-        # baixar JMeter
-        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.zip
-        - unzip apache-jmeter-5.6.3.zip
+        # Baixar JMeter
+        - wget https://downloads.apache.org/jmeter/binaries/apache-jmeter-5.6.3.tgz
+        - tar -xzf apache-jmeter-5.6.3.tgz
 
       start:
-        # rodar o teste que já está no repositório
-        - ./apache-jmeter-5.6.3/bin/jmeter -n -t secao6_ambiente_completo/teste.jmx -l resultados.jtl
-        # manter o container vivo
+        # Rodar teste JMeter
+        - echo "▶️ Executando teste JMeter..."
+        - ./apache-jmeter-5.6.3/bin/jmeter -n \
+          -t secao6_ambiente_completo/teste.jmx \
+          -l resultados.jtl
+
+        # Manter container vivo
         - sleep infinity
