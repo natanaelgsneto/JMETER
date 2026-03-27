@@ -4,11 +4,7 @@ services:
 
     commands:
       init:
-        - apt-get update
-        - apt-get install -y apache2
-        - echo "<h1>FUNCIONOU</h1>" > /var/www/html/index.html
+        - echo "init ok"
 
       start:
-        - /usr/sbin/apache2ctl -D FOREGROUND
-
-    expose: 80
+        - sleep infinity
