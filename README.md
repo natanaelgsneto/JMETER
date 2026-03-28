@@ -2,7 +2,7 @@
 
 <img src="imagem.svg](https://jmeter.apache.org/images/logo.svg" width="400"/>
 Este projeto executa um teste de performance completo no site BlazeDemo, simulando um usuário real comprando uma passagem aérea.
-
+![Print do JMeter](images/jmeter.png)
 ---
 
 ## 🌐 Sistema testado
