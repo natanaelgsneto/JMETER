@@ -1,6 +1,11 @@
 services:
   web:
-    image: nginx:latest
+    image: node:18
     default: true
+
+    commands:
+      start:
+        - npx serve -l 80
+
     ports:
       - 80
