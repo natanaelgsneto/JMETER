@@ -1,14 +1,6 @@
 services:
   web:
-    image: alpine:3.19
+    image: tugboatqa/nginx
     default: true
-
-    commands:
-      build:
-        - apk add --no-cache git busybox-extras
-
-      start:
-        - httpd -f -p 80 -h /var/lib/tugboat
-
     ports:
       - 80
