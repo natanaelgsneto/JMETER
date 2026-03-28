@@ -1,11 +1,14 @@
 services:
   web:
-    image: node:18
+    image: alpine:3.19
     default: true
 
     commands:
+      build:
+        - apk add --no-cache git busybox-extras
+
       start:
-        - npx serve -l 80
+        - httpd -f -p 80 -h /var/lib/tugboat
 
     ports:
       - 80
