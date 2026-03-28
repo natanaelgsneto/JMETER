@@ -1,15 +1,6 @@
 services:
   web:
-    image: ubuntu:22.04
+    image: nginx:latest
     default: true
-
-    commands:
-      build:
-        - apt update
-        - apt install -y git nginx
-
-      start:
-        - nginx -g "daemon off;"
-
     ports:
       - 80
