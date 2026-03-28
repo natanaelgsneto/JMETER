@@ -2,6 +2,8 @@
 
 Este projeto executa um teste de performance completo no site BlazeDemo, simulando um usuário real comprando uma passagem aérea.
 ![Logo Apache JMeter](https://jmeter.apache.org/images/logo.svg)
+
+![Logo Apache JMeter](https://wltech.com.br/wp-content/uploads/2019/03/Docker-768x512.png width="300" style="margin-right: 20px;)
 ## 🌐 Sistema testado
 
 * BlazeDemo (site de testes de voo)
