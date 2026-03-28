@@ -1,10 +1,13 @@
 services:
   web:
-    image: nginx
+    image: ubuntu:22.04
     default: true
-    ports:
-      - 80
 
     commands:
       build:
-        - echo "Tugboat funcionando"
+        - apt update
+        - apt install -y git nginx
+        - service nginx start
+
+    ports:
+      - 80
