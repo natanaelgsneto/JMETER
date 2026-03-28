@@ -1,9 +1,7 @@
 # 🚀 Projeto Completo de Teste de Performance com JMeter + Docker + Tugboat
 
 Este projeto executa um teste de performance completo no site BlazeDemo, simulando um usuário real comprando uma passagem aérea.
-<p align="center">
-  <img src="imagens/logo.jpg" alt="Logo JMeter" width="200">
-</p>
+![Logo do Projeto](imagens/logo.jpg)
 ## 🌐 Sistema testado
 
 * BlazeDemo (site de testes de voo)
