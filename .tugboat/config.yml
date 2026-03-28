@@ -1,9 +1,10 @@
 services:
-  app:
+  web:
     image: nginx
+    default: true
     ports:
       - 80
 
-routes:
-  - route: /
-    service: app
+    commands:
+      build:
+        - echo "Tugboat funcionando"
