@@ -5,9 +5,14 @@ Este projeto executa um teste de performance completo no site BlazeDemo, simulan
 <p align="center">
   <img src="https://jmeter.apache.org/images/logo.svg" width="300" alt="JMeter" style="vertical-align:middle;margin:20px;">
   <img src="https://wltech.com.br/wp-content/uploads/2019/03/Docker-768x512.png" width="300" alt="Docker" style="vertical-align:middle;margin:20px;">
-<img src="https://raw.githubusercontent.com/tugboat-qa/tugboat/master/docs/images/tugboat-logo.png" width="200" style="vertical-align:middle;margin:20px;" alt="Tugboat"></p>
+ 
+  ></p>
 
-<h1 align="center">Performance JMeter + Docker</h1>
+
+<p align="center"> 
+  <img src="https://miro.medium.com/0*wm7kZk8boWWtC-CL.png" width="150" style="vertical-align:middle;margin:15px;" alt="BlazeMeter">
+</p>
+ 
 ## 🌐 Sistema testado
 
 * BlazeDemo (site de testes de voo)
