@@ -1,9 +1,6 @@
 services:
-  app:
-    image: nginx
+  web:
+    image: tugboatqa/nginx
+    default: true
     ports:
       - 80
-
-routes:
-  - route: /
-    service: app
